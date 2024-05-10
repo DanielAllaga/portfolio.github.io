@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Daniel Allaga - Site Reliability Engineer </title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    
+
+</head>
+<body>
+
+<!-----------------------Header Page-------------------------------->
+    <div class="header"> 
+        <div class="container">
+            <nav>
+                <img src="logo.png" alt="" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p> Site Reliability Engineer · <span> Full Stack Developer </span></p>
+                <p> </p>
+                <h1> Hi, I'm <span>Daniel</span><br> from Philippines </h1>
+            </div>
+
+        </div>
+    </div>
+<!-----------------------About Page-------------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="user.jpg"  alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p> 
+                       I'm Daniel Allaga a Site Reliability Engineer and Full Stack Developer with three years of professional experience. I've had the privilege of working with Accenture, honing my skills and expertise in the field of technology.
+                        <br><br>
+                        What I Do:
+                        <br> <br>
+                        As a Site Reliability Engineer, I specialize in ensuring the reliability, scalability, and performance of complex systems. Additionally, my proficiency as a Full Stack Developer allows me to design and develop end-to-end solutions that meet the evolving needs of clients and users.
+                        <br> <br>
+                        My Journey:
+                        <br> <br>
+                        With a Bachelor of Science degree in Computer Engineering, I have cultivated a deep understanding of the foundational principles that underpin technology. My journey in the tech industry has been driven by a relentless passion for innovation and problem-solving.
+                        <br> <br>
+                        Why Choose Me:
+                        <br><br>
+                        Expertise: With hands-on experience in both Site Reliability Engineering and Full Stack Development, I offer a unique blend of skills that enable me to tackle diverse challenges effectively.
+                        Reliability: I am committed to delivering solutions that prioritize reliability, performance, and user experience.
+                        Collaboration: I thrive in collaborative environments and enjoy working closely with teams to achieve common goals.</p>
+                    
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')"> Skills </p>
+                        <p class="tab-links"  onclick="opentab('experience')"> Experience </p>
+                        <p class="tab-links"  onclick="opentab('education')"> Education  </p>
+
+                    </div>
+
+                    <!--- Skills Section -->
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>API Management and Cloud Services </span><br> Apigee · Microsoft Azure · AWS Cloud Services · Google Cloud Services  </li>
+                            <li><span>Web Development and Design Patterns</span><br> HTML5 · CSS · Django · Laravel · OOP · MVC </li>
+                            <li><span>Programming Language & Database Management</span><br> Python · Java · C++ · MySQL · BigQuery </li>
+                        </ul>
+                    </div>
+                    <!------ Experience Section -->
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Site Reliability Engineer </span> <br> Role: Apigee Site Reliability Engineer  <br> Client: Prepaid Wireless Service provider based in the US. <br> Sept 2022 - April 2024</li>
+                            <li><span>Software Engineer </span> <br> Role: API Developer  <br> Client: Telecommunications company based in the US. <br> Dec 2021 - Sept 2022 </li>
+                            
+                        </ul>
+                    </div>
+
+                      <!------ Education Section -->
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Tertiary</span><br>Rizal Technological University - Bachelor of Science in Computer Engineering</li>
+                            <li><span>Secondary</span><br> Rizal High School </li>
+                            <li><span>Primary </span><br> Bagong Ilog Elementary School</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+
+    </div>
+
+<!-----------------------Services Page-------------------------------->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title"> My Services</h1>
+            <div class="services-list">
+                <div> 
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2> 
+                    <p class="services-details"> As a seasoned developer, I specialize in crafting dynamic and responsive websites that captivate users. With expertise in both backend and frontend technologies, I bring ideas to life with clean, efficient code and intuitive user interfaces.
+                    </p>
+   
+                </div>
+
+                <div> 
+                    <i class="fa-solid fa-mobile" style="color: #ffffff;"></i>
+                    <h2>Application Support</h2> 
+                    <p  class="services-details">  Leveraging my background as a Site Reliability Engineer, I provide comprehensive support for a wide range of applications. From troubleshooting and maintenance to performance optimization, I ensure seamless operation, allowing businesses to focus on their core objectives with peace of mind.
+                    </p>
+
+                </div>
+
+                <div> 
+                    <i class="fa-solid fa-server"></i>
+                    <h2>API Management</h2> 
+                    <p  class="services-details"> With hands-on experience using Apigee, I excel in API management, streamlining communication between applications and enabling seamless integration across platforms. Whether it's designing, deploying, or optimizing APIs, I empower businesses to harness the full potential of their digital ecosystem.
+                    </p>
+                 
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!-----------------------Porfolio Page-------------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title"> My Work </h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png" alt="">
+                    <div class="layer">
+                        <h3> Point of Sale System for Gravee Tea Shop with customer reward using QR code</h3>
+                        <p> Developed to provide GraVee Tea an easier tracking system on its customers and sales. This system will help the shop in maintaining their records accurately compare to manual system which is also easy to use and will be updated as possible, Addition to that this POS system has also a customer reward system using QR code </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.jpg" alt="">
+                    <div class="layer">
+                        <h3> Online E-Learning System </h3>
+                        <p>Developed an Online E-learning System exclusive only for Computer Engineering Students of Rizal Technological University</p>
+                        <a href="https://github.com/DanielAllaga/Elearning_Django-Python"><i class="fa-solid fa-link"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-3.png" alt="">
+                    <div class="layer">
+                        <h3> Reverse Vending Machine for Basic PPE and Touchless Sanitizing Controlled by Microcontroller and Voice Recognition Module</h3>
+                        <p> Developed a PET Reverse Vending Machine with a voice recognition for contactless transactionn. The project design and fabricate a reverse vending machine with a voice command feature, which only accept any kind of plastic bottle. In return of that the machine gives a basic personal protective equipment upon the choice of the user. </p>
+                        <a href="#"><i class="fa-solid fa-link"></i></a>
+                    </div>
+
+                </div>
+
+            </div>
+            <a href="" class="btn"> See more</a>
+        </div>
+
+    </div>
+
+<!----------------------- Contact Page -------------------------------->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title"> Contact Me </h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i>danielallaga14@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i> +63 9060075468</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-twitter"></i></a> 
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+
+                    </div>
+                    <a href="Daniel-Allaga-CV.pdf" download class="btn btnCV"> Download CV </a>
+                </div>
+                <div class="contact-right">
+                    <form action="" name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btnCV">Submit</button>
+
+                    </form>
+
+                    <!--- Add a message confirmation here modal bootstrap -->
+                    <span id="msg"> </span>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="copyright">
+            <p> Copyright <i class="fa-solid fa-copyright"></i> Daniel Allaga</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://kit.fontawesome.com/6e17e1ad6f.js" crossorigin="anonymous"></script>
+</body>
+</html>
